@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mª del Mar — Proyecto de Oriol Gallart</title>
+<meta name="description" content="Mª del Mar — web de psicopedagoga y coach en desarrollo, por Oriol Gallart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="bg-dots" aria-hidden="true"></div>
+
+<div class="scrollbar-track" id="scrollbarTrack">
+  <div class="scrollbar-fill" id="scrollbarFill"></div>
+  <div class="scrollbar-handle" id="scrollbarHandle">
+    <span class="scrollbar-pct" id="scrollbarPct">0%</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-group">
+      <a href="../index.html" class="role-badges" aria-label="Portfolio de Oriol Gallart — Developer, Designer, AI">
+        <span class="role-icon" title="Developer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6L4 12L9 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 6L20 12L15 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="Designer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20l1-5L16 4l4 4L9 19l-5 1z" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="AI">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" fill="#0b0b0d"/>
+          </svg>
+        </span>
+      </a>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="lang-toggle" role="group" aria-label="Selector de idioma">
+        <button type="button" class="lang-btn" data-lang-btn="es">ES</button>
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="section detail-hero">
+    <a href="../index.html#projects" class="back-link" data-i18n="detail.back">← Volver al portfolio</a>
+
+    <span class="detail-kicker" data-i18n="mmc.kicker">Proyecto para cliente</span>
+    <h1 class="detail-title">Mª del Mar</h1>
+    <p class="detail-tagline" data-i18n="mmc.tagline">
+      Web para Mª del Mar, psicopedagoga y coach en Barcelona, con una experiencia visual cinematográfica.
+    </p>
+
+    <div class="detail-tags">
+      <span class="tag tag-status"><span class="dot dot-progress"></span> <span data-i18n="projects.status.progress">En desarrollo</span></span>
+      <span class="tag" data-i18n="projects.p3.client">Cliente · Freelance</span>
+    </div>
+
+    <div class="detail-actions">
+      <a href="https://mmarcocaching.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">
+        <span data-i18n="detail.visitSite">Visitar sitio</span> ↗
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section detail-about">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.aboutTitle">Sobre el proyecto</h2>
+    </div>
+    <p data-i18n="mmc.desc1">
+      Proyecto en desarrollo para Mª del Mar, psicopedagoga y coach, con dos líneas de servicio: coaching
+      y consultas puntuales, e intervención psicopedagógica para niños y adolescentes. El objetivo es una
+      experiencia cuidada y con personalidad, no una web de plantilla.
+    </p>
+    <p data-i18n="mmc.desc2">
+      Incluye un preloader cinematográfico, un fondo tipo aurora animado en canvas, scroll suave con Lenis,
+      animaciones con GSAP + ScrollTrigger y una galería horizontal con pin de scroll. Actualmente en
+      desarrollo, con entrega prevista para septiembre de 2026.
+    </p>
+  </section>
+
+  <!-- STACK -->
+  <section class="section detail-stack">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.stackTitle">Stack</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-item">JavaScript</div>
+      <div class="stack-item">GSAP</div>
+      <div class="stack-item">Lenis</div>
+      <div class="stack-item">CSS3</div>
+      <div class="stack-item">HTML5</div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section detail-gallery">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.galleryTitle">Capturas</h2>
+    </div>
+    <div class="detail-shots">
+      <figure class="detail-shot">
+        <img src="../assets/mmarcocaching-1.png" alt="Mª del Mar — foto del hero">
+        <figcaption data-i18n="mmc.shot1">Hero con el titular principal y las dos líneas de acompañamiento: coaching y psicopedagogia.</figcaption>
+      </figure>
+      <figure class="detail-shot">
+        <img src="../assets/mmarcocaching-2.png" alt="Mª del Mar — sección de contacto">
+        <figcaption data-i18n="mmc.shot2">Sección de contacto, con consulta presencial en Barcelona (versión de trabajo, pendiente de datos definitivos).</figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> <span data-i18n="brand.name">Oriol Gallart</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+</footer>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

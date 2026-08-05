@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velhoura — Proyecto de Oriol Gallart</title>
+<meta name="description" content="Velhoura — e-commerce de gafas de sol diseñado y desarrollado por Oriol Gallart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="bg-dots" aria-hidden="true"></div>
+
+<div class="scrollbar-track" id="scrollbarTrack">
+  <div class="scrollbar-fill" id="scrollbarFill"></div>
+  <div class="scrollbar-handle" id="scrollbarHandle">
+    <span class="scrollbar-pct" id="scrollbarPct">0%</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-group">
+      <a href="../index.html" class="role-badges" aria-label="Portfolio de Oriol Gallart — Developer, Designer, AI">
+        <span class="role-icon" title="Developer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6L4 12L9 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 6L20 12L15 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="Designer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20l1-5L16 4l4 4L9 19l-5 1z" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="AI">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" fill="#0b0b0d"/>
+          </svg>
+        </span>
+      </a>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="lang-toggle" role="group" aria-label="Selector de idioma">
+        <button type="button" class="lang-btn" data-lang-btn="es">ES</button>
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="section detail-hero">
+    <a href="../index.html#projects" class="back-link" data-i18n="detail.back">← Volver al portfolio</a>
+
+    <span class="detail-kicker" data-i18n="velhoura.kicker">E-commerce</span>
+    <h1 class="detail-title">Velhoura</h1>
+    <p class="detail-tagline" data-i18n="velhoura.tagline">
+      Tienda online de gafas de sol premium, con catálogo de modelos, campaña editorial y una experiencia de compra pensada para conversión.
+    </p>
+
+    <div class="detail-tags">
+      <span class="tag tag-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+      <span class="tag" data-i18n="projects.p2.client">E-commerce · Personal</span>
+    </div>
+
+    <div class="detail-actions">
+      <a href="https://velhoura.com/" target="_blank" rel="noopener" class="btn btn-primary">
+        <span data-i18n="detail.visitSite">Visitar sitio</span> ↗
+      </a>
+      <a href="https://github.com/velouraianuri-alt/Velourashop" target="_blank" rel="noopener" class="btn btn-github">
+        <svg viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A8.011 8.011 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/>
+        </svg>
+        <span data-i18n="detail.viewCode">Ver código</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section detail-about">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.aboutTitle">Sobre el proyecto</h2>
+    </div>
+    <p data-i18n="velhoura.desc1">
+      Velhoura es un e-commerce de gafas de sol que diseñé y desarrollé de principio a fin: desde el catálogo
+      de productos hasta la experiencia de compra completa. El objetivo era transmitir una sensación premium
+      — fotografía de estilo de vida, tipografía editorial y microinteracciones cuidadas — sin sacrificar
+      velocidad de carga.
+    </p>
+    <p data-i18n="velhoura.desc2">
+      Incluye una portada con banner de oferta con cuenta atrás, una parrilla de modelos con badges de estado
+      (Limited, Exclusive, Best Seller, New Drop) y una galería editorial de campaña. Construido con
+      JavaScript y Vite, con CSS propio sin frameworks de utilidades.
+    </p>
+  </section>
+
+  <!-- STACK -->
+  <section class="section detail-stack">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.stackTitle">Stack</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-item">JavaScript</div>
+      <div class="stack-item">Vite</div>
+      <div class="stack-item">CSS3</div>
+      <div class="stack-item">HTML5</div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section detail-gallery">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.galleryTitle">Capturas</h2>
+    </div>
+    <div class="detail-shots">
+      <figure class="detail-shot">
+        <img src="../assets/velhoura-1.png" alt="Velhoura — portada con banner de oferta">
+        <figcaption data-i18n="velhoura.shot1">Portada con banner de oferta, cuenta atrás y llamada a la acción principal.</figcaption>
+      </figure>
+      <figure class="detail-shot">
+        <img src="../assets/velhoura-2.png" alt="Velhoura — catálogo de modelos">
+        <figcaption data-i18n="velhoura.shot2">Catálogo completo de modelos con badges de estado y precio.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> <span data-i18n="brand.name">Oriol</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+</footer>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

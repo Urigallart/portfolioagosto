@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oriol Gallart — Portfolio</title>
+<meta name="description" content="Portfolio de Oriol Gallart — Full Stack Developer especializado en desarrollo web y aplicaciones SaaS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-dots" aria-hidden="true"></div>
+
+<div class="scrollbar-track" id="scrollbarTrack">
+  <div class="scrollbar-fill" id="scrollbarFill"></div>
+  <div class="scrollbar-handle" id="scrollbarHandle">
+    <span class="scrollbar-pct" id="scrollbarPct">0%</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-group">
+      <a href="#home" class="role-badges" aria-label="Home — Developer, Designer, AI">
+        <span class="role-icon" title="Developer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6L4 12L9 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 6L20 12L15 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="Designer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20l1-5L16 4l4 4L9 19l-5 1z" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="AI">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" fill="#0b0b0d"/>
+          </svg>
+        </span>
+      </a>
+    </div>
+
+    <nav class="pill-nav" aria-label="Navegación principal">
+      <a href="#home" class="pill-link" data-i18n="nav.home">Home</a>
+      <a href="#about" class="pill-link" data-i18n="nav.about">About</a>
+      <a href="#services" class="pill-link" data-i18n="nav.services">Services</a>
+      <a href="#projects" class="pill-link" data-i18n="nav.projects">Projects</a>
+      <a href="#stack" class="pill-link" data-i18n="nav.stack">Stack</a>
+      <a href="#experience" class="pill-link" data-i18n="nav.experience">Experience</a>
+      <a href="#contact" class="pill-link" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <div class="lang-toggle" role="group" aria-label="Selector de idioma">
+        <button type="button" class="lang-btn" data-lang-btn="es">ES</button>
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil">
+    <a href="#home" data-i18n="nav.home">Home</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#projects" data-i18n="nav.projects">Projects</a>
+    <a href="#stack" data-i18n="nav.stack">Stack</a>
+    <a href="#experience" data-i18n="nav.experience">Experience</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="hero-main">
+      <div class="hero-badge">
+        <span class="dot dot-live"></span>
+        <span data-i18n="hero.badge">Disponible para nuevos proyectos</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span data-i18n="hero.hi">Hola, soy</span>
+        <span class="hero-name" data-i18n="brand.name">Oriol</span>
+        <span class="hero-role-inline mono-tag" data-i18n="hero.role">Full Stack Developer</span>
+      </h1>
+
+      <p class="hero-desc" data-i18n="hero.desc">
+        Desarrollador Full Stack con dominio tanto de frontend como de backend. Diseño y desarrollo
+        páginas web y aplicaciones SaaS a medida, y actualmente amplío mi formación con un Máster
+        en Inteligencia Artificial y Big Data.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects">Ver proyectos</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.ctaContact">Hablemos</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num" data-count="5">0+</span>
+        <span class="stat-label" data-i18n="hero.statProjects">Proyectos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="20" data-suffix="">0</span>
+        <span class="stat-label" data-i18n="hero.statAge">Años</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="3">0+</span>
+        <span class="stat-label" data-i18n="hero.statYears">Años de experiencia</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="10">0+</span>
+        <span class="stat-label" data-i18n="hero.statTech">Tecnologías</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK PREVIEW -->
+  <section class="section work-preview">
+    <div class="section-head-row">
+      <div>
+        <span class="section-kicker" data-i18n="workPreview.kicker">Trabajo reciente</span>
+        <h2 class="section-title" data-i18n="workPreview.title">Proyectos destacados</h2>
+      </div>
+      <a href="#projects" class="link-arrow" data-i18n="workPreview.viewAll">Ver todo →</a>
+    </div>
+
+    <div class="work-list">
+      <a href="projects/gallartdesign.html" class="work-row">
+        <span class="work-thumb card-a"></span>
+        <span class="work-title" data-i18n="projects.p1.title">Gallartdesign</span>
+        <span class="work-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+        <span class="work-tags">Next.js · Branding · UI/UX</span>
+      </a>
+      <a href="projects/velhoura.html" class="work-row">
+        <span class="work-thumb card-b"></span>
+        <span class="work-title" data-i18n="projects.p2.title">Velhoura</span>
+        <span class="work-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+        <span class="work-tags">Vite · E-commerce</span>
+      </a>
+      <a href="projects/mmarcocaching.html" class="work-row">
+        <span class="work-thumb card-c"></span>
+        <span class="work-title" data-i18n="projects.p3.title">Mª del Mar</span>
+        <span class="work-status"><span class="dot dot-progress"></span> <span data-i18n="projects.status.progress">En desarrollo</span></span>
+        <span class="work-tags">GSAP · Lenis · JavaScript</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="about.kicker">Sobre mí</span>
+      <h2 class="section-title" data-i18n="about.title">Un poco de contexto</h2>
+    </div>
+
+    <div class="about-grid">
+      <p class="about-text" data-i18n="about.text">
+        Soy Oriol, tengo 20 años y compagino el desarrollo de software con la preparación de un
+        Máster en Inteligencia Artificial y Big Data. Tengo experiencia tanto en frontend como en
+        backend, lo que me permite abordar un proyecto de principio a fin: desde el diseño de la
+        interfaz hasta la arquitectura que lo sostiene. Además del desarrollo web, ofrezco servicios
+        de creación de aplicaciones SaaS a medida, adaptándome a las necesidades de cada cliente.
+      </p>
+
+      <div class="about-facts">
+        <div class="fact-card">
+          <span class="fact-num" data-i18n="about.fact1Num">20 años</span>
+          <span class="fact-label" data-i18n="about.fact1Label">Edad</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-num" data-i18n="about.fact2Num">IA &amp; Big Data</span>
+          <span class="fact-label" data-i18n="about.fact2Label">Máster en curso</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-num" data-i18n="about.fact3Num">Full Stack</span>
+          <span class="fact-label" data-i18n="about.fact3Label">Especialidad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="services.kicker">Lo que ofrezco</span>
+      <h2 class="section-title" data-i18n="services.title">Servicios</h2>
+      <p class="section-sub" data-i18n="services.sub">Desarrollo full stack de principio a fin, aplicado tanto a proyectos propios como a los de mis clientes.</p>
+    </div>
+
+    <div class="services-list">
+      <div class="service-row">
+        <span class="service-icon icon-bg-1">01</span>
+        <div>
+          <h3 data-i18n="services.s1.title">Desarrollo Web</h3>
+          <p data-i18n="services.s1.desc">Páginas web modernas, rápidas y adaptadas a cualquier dispositivo, desde landing pages hasta plataformas completas.</p>
+        </div>
+      </div>
+      <div class="service-row">
+        <span class="service-icon icon-bg-2">02</span>
+        <div>
+          <h3 data-i18n="services.s2.title">Aplicaciones SaaS</h3>
+          <p data-i18n="services.s2.desc">Diseño y desarrollo de productos SaaS a medida, desde la idea inicial hasta el despliegue en producción.</p>
+        </div>
+      </div>
+      <div class="service-row">
+        <span class="service-icon icon-bg-3">03</span>
+        <div>
+          <h3 data-i18n="services.s3.title">Frontend</h3>
+          <p data-i18n="services.s3.desc">Interfaces cuidadas e interactivas, construidas con las tecnologías más actuales del ecosistema frontend.</p>
+        </div>
+      </div>
+      <div class="service-row">
+        <span class="service-icon icon-bg-4">04</span>
+        <div>
+          <h3 data-i18n="services.s4.title">Backend &amp; APIs</h3>
+          <p data-i18n="services.s4.desc">Arquitectura de servidor, bases de datos y APIs robustas, pensadas para escalar con el proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack" class="section">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="stack.kicker">Herramientas</span>
+      <h2 class="section-title" data-i18n="stack.title">Con lo que trabajo</h2>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-item">JavaScript</div>
+      <div class="stack-item">TypeScript</div>
+      <div class="stack-item">Python</div>
+      <div class="stack-item">React</div>
+      <div class="stack-item">Node.js</div>
+      <div class="stack-item">HTML5</div>
+      <div class="stack-item">CSS3</div>
+      <div class="stack-item">Tailwind</div>
+      <div class="stack-item">SQL</div>
+      <div class="stack-item">Git</div>
+      <div class="stack-item">Docker</div>
+      <div class="stack-item">Figma</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="projects.kicker">Trabajo</span>
+      <h2 class="section-title" data-i18n="projects.title">Proyectos</h2>
+      <p class="section-sub" data-i18n="projects.sub">Una selección de proyectos web, mobile y freelance.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <a class="project-card card-a" href="projects/gallartdesign.html">
+        <div class="project-info">
+          <h3 data-i18n="projects.p1.title">Gallartdesign</h3>
+          <div class="project-tags">
+            <span class="tag tag-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+            <span class="tag" data-i18n="projects.p1.client">Estudio propio · Autónomo</span>
+            <span class="tag tag-link" data-i18n="projects.viewProject">Ver proyecto →</span>
+          </div>
+        </div>
+        <div class="project-preview gallery-preview">
+          <div class="mockup-window gallery-window">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="gallery-slides">
+              <img src="assets/gallart-1.png" alt="Gallartdesign — sección de proyectos" class="gallery-slide is-active">
+              <img src="assets/gallart-2.png" alt="Gallartdesign — testimonios de clientes" class="gallery-slide">
+              <img src="assets/gallart-3.png" alt="Gallartdesign — sección de contacto" class="gallery-slide">
+            </div>
+            <div class="gallery-dots">
+              <span class="gallery-dot is-active"></span>
+              <span class="gallery-dot"></span>
+              <span class="gallery-dot"></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a class="project-card card-b" href="projects/velhoura.html">
+        <div class="project-info">
+          <h3 data-i18n="projects.p2.title">Velhoura</h3>
+          <div class="project-tags">
+            <span class="tag tag-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+            <span class="tag" data-i18n="projects.p2.client">E-commerce · Personal</span>
+            <span class="tag tag-link" data-i18n="projects.viewProject">Ver proyecto →</span>
+          </div>
+        </div>
+        <div class="project-preview gallery-preview">
+          <div class="mockup-window gallery-window">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="gallery-slides">
+              <img src="assets/velhoura-1.png" alt="Velhoura — página de inicio" class="gallery-slide is-active">
+              <img src="assets/velhoura-2.png" alt="Velhoura — catálogo de modelos" class="gallery-slide">
+            </div>
+            <div class="gallery-dots">
+              <span class="gallery-dot is-active"></span>
+              <span class="gallery-dot"></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a class="project-card card-c" href="projects/mmarcocaching.html">
+        <div class="project-info">
+          <h3 data-i18n="projects.p3.title">Mª del Mar</h3>
+          <div class="project-tags">
+            <span class="tag tag-status"><span class="dot dot-progress"></span> <span data-i18n="projects.status.progress">En desarrollo</span></span>
+            <span class="tag" data-i18n="projects.p3.client">Cliente · Freelance</span>
+            <span class="tag tag-link" data-i18n="projects.viewProject">Ver proyecto →</span>
+          </div>
+        </div>
+        <div class="project-preview gallery-preview">
+          <div class="mockup-window gallery-window">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="gallery-slides">
+              <img src="assets/mmarcocaching-1.png" alt="Mª del Mar — hero" class="gallery-slide is-active">
+              <img src="assets/mmarcocaching-2.png" alt="Mª del Mar — sección de contacto" class="gallery-slide">
+            </div>
+            <div class="gallery-dots">
+              <span class="gallery-dot is-active"></span>
+              <span class="gallery-dot"></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <article class="project-card card-d">
+        <div class="project-info">
+          <h3 data-i18n="projects.p4.title">Proyecto Cuatro</h3>
+          <div class="project-tags">
+            <span class="tag tag-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+            <span class="tag" data-i18n="projects.p4.client">Investigación</span>
+          </div>
+        </div>
+        <div class="project-preview">
+          <div class="mockup-window">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-body mockup-scatter">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- GALLARTDESIGN CTA -->
+  <section class="section">
+    <div class="studio-cta">
+      <div class="studio-cta-content">
+        <h2 class="studio-cta-title" data-i18n="studioCta.title">¿Buscas branding o una web con impacto?</h2>
+        <p class="studio-cta-sub" data-i18n="studioCta.sub">Fundé Gallartdesign, un estudio de diseño que transforma marcas con branding, identidad visual y diseño web modernos.</p>
+
+        <div class="studio-cta-stats">
+          <div class="studio-stat">
+            <span class="studio-stat-num">5+</span>
+            <span class="studio-stat-label" data-i18n="studioCta.stat1">Años de experiencia</span>
+          </div>
+          <div class="studio-stat">
+            <span class="studio-stat-num">30+</span>
+            <span class="studio-stat-label" data-i18n="studioCta.stat2">Proyectos entregados</span>
+          </div>
+          <div class="studio-stat">
+            <span class="studio-stat-num">100%</span>
+            <span class="studio-stat-label" data-i18n="studioCta.stat3">Clientes satisfechos</span>
+          </div>
+        </div>
+
+        <div class="studio-cta-actions">
+          <a href="https://gallartdesign.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">
+            <span data-i18n="studioCta.visit">Visitar Gallartdesign</span> ↗
+          </a>
+          <a href="mailto:oriolgallart4@gmail.com" class="studio-cta-email">oriolgallart4@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="studio-cta-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="experience.kicker">Trayectoria</span>
+      <h2 class="section-title" data-i18n="experience.title">Experiencia</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon icon-bg-1">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="12" width="48" height="40" rx="7" stroke="#0b0b0d" stroke-width="4"/>
+            <line x1="8" y1="23" x2="56" y2="23" stroke="#0b0b0d" stroke-width="4"/>
+            <circle cx="15" cy="17.5" r="1.8" fill="#0b0b0d"/>
+            <circle cx="21" cy="17.5" r="1.8" fill="#0b0b0d"/>
+            <circle cx="27" cy="17.5" r="1.8" fill="#0b0b0d"/>
+            <path d="M22 32 L16 38 L22 44" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M42 32 L48 38 L42 44" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="30" x2="29" y2="46" stroke="#7fae1a" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="timeline-content">
+          <span class="timeline-date" data-i18n="experience.e1.date">Mayo 2025 — Actualidad</span>
+          <h3 data-i18n="experience.e1.role">Desarrollador Web</h3>
+          <span class="timeline-company" data-i18n="experience.e1.company">Autónomo · Remoto</span>
+          <p data-i18n="experience.e1.desc">Desarrollo de páginas web y aplicaciones a medida para clientes, trabajando en remoto de forma autónoma.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon icon-bg-2">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="6" width="56" height="38" rx="6" stroke="#0b0b0d" stroke-width="4"/>
+            <line x1="4" y1="33" x2="60" y2="33" stroke="#0b0b0d" stroke-width="4"/>
+            <rect x="26" y="44" width="12" height="9" fill="#a9c9e8" stroke="#0b0b0d" stroke-width="4"/>
+            <line x1="18" y1="56" x2="46" y2="56" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="24" cy="23" r="11" fill="#ffd23f" stroke="#0b0b0d" stroke-width="3.5"/>
+            <circle cx="39" cy="23" r="11" fill="#1ecb8c" stroke="#0b0b0d" stroke-width="3.5"/>
+            <text x="24" y="27" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="8.5" fill="#0b0b0d">UI</text>
+            <text x="39" y="27" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="8.5" fill="#0b0b0d">UX</text>
+          </svg>
+        </div>
+        <div class="timeline-content">
+          <span class="timeline-date" data-i18n="experience.e2.date">Enero 2026 — Junio 2026</span>
+          <h3 data-i18n="experience.e2.role">UX/UI &amp; Web Designer</h3>
+          <span class="timeline-company" data-i18n="experience.e2.company">SIMON · Prácticas</span>
+          <p data-i18n="experience.e2.desc">Diseño de landing pages y de las aplicaciones internas y la página web de la empresa.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon icon-bg-3">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 34 a18 18 0 0 1 36 0" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round"/>
+            <rect x="8" y="32" width="10" height="16" rx="4" fill="#c9c2e8" stroke="#0b0b0d" stroke-width="3.5"/>
+            <rect x="46" y="32" width="10" height="16" rx="4" fill="#c9c2e8" stroke="#0b0b0d" stroke-width="3.5"/>
+            <path d="M56 40 v6 a6 6 0 0 1 -6 6 h-8" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="40" cy="52" r="3" fill="#0b0b0d"/>
+          </svg>
+        </div>
+        <div class="timeline-content">
+          <span class="timeline-date" data-i18n="experience.e3.date">Abril 2024 — Junio 2024</span>
+          <h3 data-i18n="experience.e3.role">Técnico Informático</h3>
+          <span class="timeline-company" data-i18n="experience.e3.company">SIMON · Prácticas</span>
+          <p data-i18n="experience.e3.desc">Soporte técnico en incidencias informáticas y asistencia a los distintos departamentos de la empresa.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon icon-bg-4">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="18" y="6" width="24" height="44" rx="6" stroke="#0b0b0d" stroke-width="4"/>
+            <line x1="18" y1="14" x2="42" y2="14" stroke="#0b0b0d" stroke-width="3"/>
+            <line x1="18" y1="40" x2="42" y2="40" stroke="#0b0b0d" stroke-width="3"/>
+            <circle cx="30" cy="45" r="2.2" fill="#0b0b0d"/>
+            <circle cx="46" cy="46" r="11" fill="#f2a6a1" stroke="#0b0b0d" stroke-width="4"/>
+            <line x1="40" y1="46" x2="52" y2="46" stroke="#0b0b0d" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="46" y1="40" x2="46" y2="52" stroke="#0b0b0d" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="timeline-content">
+          <span class="timeline-date" data-i18n="experience.e4.date">Enero 2024 — Abril 2024</span>
+          <h3 data-i18n="experience.e4.role">Técnico Informático</h3>
+          <span class="timeline-company" data-i18n="experience.e4.company">Merkia360 · Prácticas</span>
+          <p data-i18n="experience.e4.desc">Reparación de dispositivos Apple (iPhone, iPad, Mac y monitores) y de otras marcas; tareas de inventario, restauración y mantenimiento de equipos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="contact-card">
+      <span class="section-kicker" data-i18n="contact.kicker">Contacto</span>
+      <h2 class="section-title" data-i18n="contact.title">Hablemos de tu proyecto</h2>
+      <p class="section-sub" data-i18n="contact.sub">
+        ¿Tienes algo en mente o simplemente quieres saludar? Escríbeme.
+      </p>
+
+      <div class="contact-actions">
+        <a href="mailto:oriolgallart4@gmail.com" class="btn btn-primary" data-i18n="contact.emailBtn">oriolgallart4@gmail.com</a>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> <span data-i18n="brand.name">Oriol</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
