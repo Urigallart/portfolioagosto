@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simon Design — Proyecto de Oriol Gallart</title>
+<meta name="description" content="Simon Design — web del equipo de diseño de Simon, desarrollada por Oriol Gallart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="bg-dots" aria-hidden="true"></div>
+
+<div class="scrollbar-track" id="scrollbarTrack">
+  <div class="scrollbar-fill" id="scrollbarFill"></div>
+  <div class="scrollbar-handle" id="scrollbarHandle">
+    <span class="scrollbar-pct" id="scrollbarPct">0%</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-group">
+      <a href="../index.html" class="role-badges" aria-label="Portfolio de Oriol Gallart — Developer, Designer, AI">
+        <span class="role-icon" title="Developer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6L4 12L9 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 6L20 12L15 18" stroke="#0b0b0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="Designer">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20l1-5L16 4l4 4L9 19l-5 1z" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="role-icon" title="AI">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z" fill="#0b0b0d"/>
+          </svg>
+        </span>
+      </a>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="lang-toggle" role="group" aria-label="Selector de idioma">
+        <button type="button" class="lang-btn" data-lang-btn="es">ES</button>
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="section detail-hero">
+    <a href="../index.html#projects" class="back-link" data-i18n="detail.back">← Volver al portfolio</a>
+
+    <span class="detail-kicker" data-i18n="simon.kicker">Equipo de diseño</span>
+    <h1 class="detail-title">Simon Design</h1>
+    <p class="detail-tagline" data-i18n="simon.tagline">
+      Web del equipo de diseño de Simon: historias, filosofía, equipo y reconocimientos del estudio.
+    </p>
+
+    <div class="detail-tags">
+      <span class="tag tag-status"><span class="dot dot-live"></span> <span data-i18n="projects.status.active">Activo</span></span>
+      <span class="tag" data-i18n="projects.p4.client">Equipo de diseño · Simon</span>
+    </div>
+
+    <div class="detail-actions">
+      <a href="https://simondesign.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">
+        <span data-i18n="detail.visitSite">Visitar sitio</span> ↗
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section detail-about">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.aboutTitle">Sobre el proyecto</h2>
+    </div>
+    <p data-i18n="simon.desc1">
+      Simon Design es el sitio del equipo de diseño de Simon, la marca de mecanismos e iluminación. La web
+      recoge cómo el equipo da forma a productos, sistemas y experiencias que integran luz, energía y
+      tecnología en los espacios donde vivimos.
+    </p>
+    <p data-i18n="simon.desc2">
+      Está estructurada en cuatro bloques: Historias (artículos del estudio sobre producto, digital y
+      espacios), Filosofía, Equipo y Premios. Construida con Next.js y React, con tipografía de gran escala
+      y un acento azul degradado como identidad visual.
+    </p>
+  </section>
+
+  <!-- STACK -->
+  <section class="section detail-stack">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.stackTitle">Stack</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-item">Next.js</div>
+      <div class="stack-item">React</div>
+      <div class="stack-item">JavaScript</div>
+      <div class="stack-item">CSS3</div>
+      <div class="stack-item">Vercel</div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section detail-gallery">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="detail.galleryTitle">Capturas</h2>
+    </div>
+    <div class="detail-shots">
+      <figure class="detail-shot">
+        <img src="../assets/simondesign-1.png" alt="Simon Design — página de inicio">
+        <figcaption data-i18n="simon.shot1">Hero con el titular a gran escala y la navegación por secciones del estudio.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> <span data-i18n="brand.name">Oriol Gallart</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+</footer>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

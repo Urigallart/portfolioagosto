@@ -62,8 +62,8 @@ const translations = {
     "projects.p2.client": "E-commerce · Personal",
     "projects.p3.title": "Mª del Mar",
     "projects.p3.client": "Coaching y Psicopedagogía",
-    "projects.p4.title": "Proyecto Cuatro",
-    "projects.p4.client": "Investigación",
+    "projects.p4.title": "Simon Design",
+    "projects.p4.client": "Equipo de diseño · Simon",
 
     "studioCta.title": "¿Buscas branding o una web con impacto?",
     "studioCta.sub": "Fundé Gallartdesign, un estudio de diseño que transforma marcas con branding, identidad visual y diseño web modernos.",
@@ -125,7 +125,13 @@ const translations = {
     "mmc.desc1": "Proyecto en desarrollo para Mª del Mar, psicopedagoga y coach, con dos líneas de servicio: coaching y consultas puntuales, e intervención psicopedagógica para niños y adolescentes. El objetivo es una experiencia cuidada y con personalidad, no una web de plantilla.",
     "mmc.desc2": "Incluye un preloader cinematográfico, un fondo tipo aurora animado en canvas, scroll suave con Lenis, animaciones con GSAP + ScrollTrigger y una galería horizontal con pin de scroll. Actualmente en desarrollo, con entrega prevista para septiembre de 2026.",
     "mmc.shot1": "Hero con el titular principal y las dos líneas de acompañamiento: coaching y psicopedagogia.",
-    "mmc.shot2": "Sección de contacto, con consulta presencial en Barcelona (versión de trabajo, pendiente de datos definitivos)."
+    "mmc.shot2": "Sección de contacto, con consulta presencial en Barcelona (versión de trabajo, pendiente de datos definitivos).",
+
+    "simon.kicker": "Equipo de diseño",
+    "simon.tagline": "Web del equipo de diseño de Simon: historias, filosofía, equipo y reconocimientos del estudio.",
+    "simon.desc1": "Simon Design es el sitio del equipo de diseño de Simon, la marca de mecanismos e iluminación. La web recoge cómo el equipo da forma a productos, sistemas y experiencias que integran luz, energía y tecnología en los espacios donde vivimos.",
+    "simon.desc2": "Está estructurada en cuatro bloques: Historias (artículos del estudio sobre producto, digital y espacios), Filosofía, Equipo y Premios. Construida con Next.js y React, con tipografía de gran escala y un acento azul degradado como identidad visual.",
+    "simon.shot1": "Hero con el titular a gran escala y la navegación por secciones del estudio."
   },
   en: {
     "brand.name": "Oriol Gallart",
@@ -190,8 +196,8 @@ const translations = {
     "projects.p2.client": "E-commerce · Personal",
     "projects.p3.title": "Mª del Mar",
     "projects.p3.client": "Coaching & Psycho-pedagogy",
-    "projects.p4.title": "Project Four",
-    "projects.p4.client": "Research",
+    "projects.p4.title": "Simon Design",
+    "projects.p4.client": "Design team · Simon",
 
     "studioCta.title": "Looking for branding or a website that stands out?",
     "studioCta.sub": "I founded Gallartdesign, a design studio that transforms brands through branding, visual identity and modern web design.",
@@ -253,6 +259,12 @@ const translations = {
     "mmc.desc1": "A project in development for Mª del Mar, a psycho-pedagogue and coach, covering two service lines: coaching and one-off consultations, and psycho-pedagogical support for children and teenagers. The goal was a crafted experience with personality, not a template site.",
     "mmc.desc2": "It includes a cinematic preloader, an animated canvas aurora background, smooth scrolling with Lenis, GSAP + ScrollTrigger animations and a pinned horizontal scroll gallery. Currently in development, due for delivery in September 2026.",
     "mmc.shot1": "Hero with the main headline and the two service lines: coaching and psycho-pedagogy.",
-    "mmc.shot2": "Contact section, with in-person consultations in Barcelona (work-in-progress version, pending final details)."
+    "mmc.shot2": "Contact section, with in-person consultations in Barcelona (work-in-progress version, pending final details).",
+
+    "simon.kicker": "Design team",
+    "simon.tagline": "Website for Simon's design team: stories, philosophy, team and studio awards.",
+    "simon.desc1": "Simon Design is the site for the design team at Simon, the switches and lighting brand. It shows how the team shapes products, systems and experiences that bring together light, energy and technology in the spaces where we live.",
+    "simon.desc2": "It is structured around four blocks: Stories (studio articles on product, digital and spaces), Philosophy, Team and Awards. Built with Next.js and React, with large-scale typography and a blue gradient accent as its visual identity.",
+    "simon.shot1": "Hero with the large-scale headline and navigation across the studio's sections."
   }
 };
